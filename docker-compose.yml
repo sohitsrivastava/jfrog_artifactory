@@ -5,6 +5,7 @@ services:
     container_name: artifactory
     ports:
      - 8080:8081
+     - 8082:8082
     volumes:
      - artifactory6_data:/var/opt/jfrog/artifactory
 #    Add extra Java options by uncommenting the following lines
